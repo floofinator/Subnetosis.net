@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    font-family: love;
 }
 
 .left {
@@ -20,8 +21,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 1% 0px;
     align-items: center;
-    margin: 0;
     flex-wrap: wrap;
 }
 
@@ -33,7 +34,6 @@ body {
 html {
     background-color: black;
     color: white;
-    font-family: body;
     width: auto;
     text-align: center;
 }
@@ -75,7 +75,6 @@ hr {
 h1,
 h2,
 h3{
-    font-family: title;
     color: darkgrey;
     padding: 1rem 0;
     margin: 0;
@@ -83,7 +82,7 @@ h3{
 
 h1 {
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -93,7 +92,6 @@ h2 {
 }
 
 h3{
-    font-family: body;
     font-size: 1.125rem;
     padding: 0.125rem 0;
 }
@@ -103,11 +101,6 @@ img {
 }
 
 @font-face {
-    font-family: title;
-    src: url(SubnetSysFont.ttf);
-}
-
-@font-face {
-    font-family: body;
-    src: url(SubnetosisFont.ttf);
+    font-family: love;
+    src: url(fonts/Lovelt__.ttf);
 }
